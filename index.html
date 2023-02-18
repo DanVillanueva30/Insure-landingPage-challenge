@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Karla:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/app.css">
+  <title>Frontend Mentor | Insure landing page</title>
+
+
+</head>
+<body>
+
+  <header class="header header__container">
+      <div class="header__bar">
+        <div class="header__logo">
+          <img src="images/logo.svg" alt="Logo">
+        </div>
+        <div class="mobile-menu">
+          <img class="mobile-menu-img " src="images/icon-hamburger.svg" alt="Mobile menu icon">
+          <img class="mobile-menu-img mobile-menu-img__cross mobile-menu-img--hidden" src="images/icon-close.svg" alt="Clode menu icon">
+        </div>
+      </div>
+
+      <nav class="navigation navigation__hidden">
+        <a class="navigation__link" href="#">How we work</a>
+        <a class="navigation__link" href="#">Blog</a>
+        <a class="navigation__link" href="#">Account</a>
+        <a class="navigation__link" href="#">View plans</a>
+      </nav>
+  </header>
+
+  <div class="hero">
+      <div class="hero__content">
+          <div class="hero__border"></div>
+          <h1 class="hero__heading">Humanizing your insurance.</h1>
+          <p class="hero__text">Get your life insurance coverage easier and faster. We blend our expertise 
+            and technology to help you find the plan that’s right for you. Ensure you 
+            and your loved ones are protected.</p>
+      
+            <a class="hero__button" href="#">View plans</a>    
+      </div>
+      <div class="container-images">
+          <img class="container-images--desktop" src="images/image-intro-desktop.jpg" alt="Family image">
+          <img class="container-images--mobile" src="images/image-intro-mobile.jpg" alt="Family image">
+      </div>
+  </div>
+  
+    <main class="main">
+      <div class="main__content main__container">
+        <div class="main__border"></div>
+        <h2 class="main__heading">We’re different</h2>
+
+          <div class="cards">
+            <div class="card">
+              <img class="card__img" src="images/icon-snappy-process.svg" alt="Icon">
+              <h3 class="card__heading">Snappy Process</h3>
+              <p class="card__text">Our application process can be completed in minutes, not hours. Don’t get 
+              stuck filling in tedious forms.</p>
+            </div>
+      
+            <div class="card">
+              <img class="card__img" src="images/icon-affordable-prices.svg" alt="Icon">
+              <h3 class="card__heading">Affordable Prices</h3>
+              <p class="card__text">We don’t want you worrying about high monthly costs. Our prices may be low, 
+              but we still offer the best coverage possible.</p>
+            </div>
+      
+            <div class="card">
+              <img class="card__img" src="images/icon-people-first.svg" alt="Icon">
+              <h3 class="card__heading">People First</h3>
+              <p class="card__text">Our plans aren’t full of conditions and clauses to prevent payouts. We make 
+              sure you’re covered when you need it.</p>
+            </div>
+          </div><!--,Cards container-->
+      </div>
+    </main><!--Main-->
+  
+    <div class="about-us about-us__container">
+        <h3 class="about-us__text">Find out more <span class="about-us__text--br">about how we work</span></h3>
+        <a class="about-us__button" href="#">How we work</a>
+    </div>
+  
+
+  <footer class="footer">
+    <div class="footer__content footer__container">
+      <div class="footer__bar">
+        <img class="footer__logo" src="images/logo.svg" alt="Logo">
+  
+        <div class="social-media">
+          <img class="social-media__icon" src="images/icon-facebook.svg" alt="Facebook icon">
+          <img class="social-media__icon" src="images/icon-twitter.svg" alt="Twitter icon">
+          <img class="social-media__icon" src="images/icon-pinterest.svg" alt="Pinterest icon">
+          <img class="social-media__icon" src="images/icon-instagram.svg" alt="Instagram icon">
+        </div>
+      </div>
+  
+      <div class="footer__nav">
+        <div class="footer__nav-options">
+          <p class="footer__nav-option">Our company</p>
+          <a class="footer__link" href="#">How we work</a>
+          <a class="footer__link" href="#">Why Insure?</a>
+          <a class="footer__link" href="#">View plans</a>
+          <a class="footer__link" href="#">Reviews</a>
+        </div>
+  
+        <div class="footer__nav-options">
+          <p class="footer__nav-option">Help me</p>
+          <a class="footer__link" href="#">FAQ</a>
+          <a class="footer__link" href="#">Terms of use</a>
+          <a class="footer__link" href="#">Privacy policy</a>
+          <a class="footer__link" href="#">Cookies</a>
+        </div>
+  
+        <div class="footer__nav-options">
+          <p class="footer__nav-option">Contact</p>
+          <a class="footer__link" href="#">Sales</a>
+          <a class="footer__link" href="#">Support</a>
+          <a class="footer__link" href="#">Live chat</a>
+        </div>
+  
+        <div class="footer__nav-options">
+          <p class="footer__nav-option">Others</p>
+          <a class="footer__link" href="#">Careers</a>
+          <a class="footer__link" href="#">Press</a>
+          <a class="footer__link" href="#">Licenses</a>
+        </div>
+      </div><!--,Footer-nav-->
+  
+      <div class="attribution">
+        <p class="attribution__challenge">
+          Challenge by <a class="attribution__link" href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+        </p>
+        <p class="attribution__author">
+          Coded by <a class="attribution__link" href="https://www.frontendmentor.io/profile/DanVillanueva30" target="_blank">@DanVillanueva30</a>.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
