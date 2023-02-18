@@ -26,7 +26,7 @@ Los usuarios deberán ser capaces de:
 
 ### Links
 
-- My solución: (https://your-solution-url.com)
+- My solución: (https://www.frontendmentor.io/solutions/insure-landing-page-with-css-grid-flexbox-and-javascript-vOdzSWGIkC)
 - Sitio en vivo : (https://insurence-challenge.netlify.app)
 
 ## Mi proceso
